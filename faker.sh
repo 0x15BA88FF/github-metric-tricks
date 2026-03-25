@@ -2,7 +2,7 @@
 
 set -euo pipefail
 
-readonly COMMITS_PER_DAY=69
+readonly COMMITS_PER_DAY=1
 readonly START_DATE="1970-01-01"
 readonly END_DATE="2024-12-31"
 

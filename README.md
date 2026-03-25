@@ -84,3 +84,7 @@ while [[ "$current_date" < "$END_DATE" ]] || [[ "$current_date" == "$END_DATE" ]
   current_date=$(date -I -d "$current_date +1 day" 2>/dev/null || date -j -v+1d -f "%Y-%m-%d" "$current_date" "+%Y-%m-%d" 2>/dev/null)
 done
 ```
+
+After running the script for 4m and 40s i only got 16 days done, this is still
+quite slow, so I'm going to change the amount of commits down to just one per
+day.
