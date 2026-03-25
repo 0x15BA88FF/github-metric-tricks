@@ -88,3 +88,5 @@ done
 After running the script for 4m and 40s i only got 16 days done, this is still
 quite slow, so I'm going to change the amount of commits down to just one per
 day.
+
+It did not work... or did it?
